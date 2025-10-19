@@ -1,0 +1,25 @@
+Nahid, 18 is eligible to vote.
+Mahbub, 19 is eligible to vote.
+Neon, 20 is eligible to vote.
+Shumi, 12 is NOT eligible to vote.
+Rumi, 14 is NOT eligible to vote.
+Tumi, 16 is NOT eligible to vote.
+Shemanto, 20 is eligible to vote.
+Suraiya, 16 is NOT eligible to vote.
+Mila, 18 is eligible to vote.
+Sila, 14 is NOT eligible to vote.
+Nila, 12 is NOT eligible to vote.
+Akib, 48 is eligible to vote.
+Rakib, 66 is eligible to vote.
+Jahan, 14 is NOT eligible to vote.
+Shakib, 18 is eligible to vote.
+Asif, 22 is eligible to vote.
+Moumit, 23 is eligible to vote.
+Lam, 27 is eligible to vote.
+Mim, 34 is eligible to vote.
+Nur, 20 is eligible to vote.
+Jibon, 21 is eligible to vote.
+Zahid, 22 is eligible to vote.
+Ilma, 23 is eligible to vote.
+Toha, 24 is eligible to vote.
+Sami, 25 is eligible to vote.
