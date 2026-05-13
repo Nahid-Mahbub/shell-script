@@ -1,7 +1,14 @@
-for file in *S01E*; do
+#!/bin/bash
+
+# ===== CONFIG =====
+TITLE="Spy x Family"
+SEASON="01"
+# ==================
+
+for file in *S${SEASON}E*; do
     [ -e "$file" ] || continue
 
-    num=$(echo "$file" | grep -oP 'S01E\K\d+')
+    num=$(echo "$file" | grep -oP "S${SEASON}E\K\d+")
 
     if [ -z "$num" ]; then
         echo "Skipped (no episode match): $file"
@@ -12,7 +19,7 @@ for file in *S01E*; do
     num=$((10#$num))
 
     ext="${file##*.}"
-    new="Spy x Family S01E$(printf "%02d" "$num").$ext"
+    new="${TITLE} S${SEASON}E$(printf "%02d" "$num").$ext"
 
     if [ "$file" != "$new" ]; then
         mv "$file" "$new"
