@@ -1,14 +1,15 @@
 for file in *S01E*; do
     [ -e "$file" ] || continue
 
-    # extract episode number safely
     num=$(echo "$file" | grep -oP 'S01E\K\d+')
 
-    # skip if no valid episode found
     if [ -z "$num" ]; then
         echo "Skipped (no episode match): $file"
         continue
     fi
+
+    # force base-10 (prevents octal interpretation)
+    num=$((10#$num))
 
     ext="${file##*.}"
     new="Spy x Family S01E$(printf "%02d" "$num").$ext"
