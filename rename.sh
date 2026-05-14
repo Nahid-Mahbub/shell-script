@@ -15,7 +15,7 @@ for file in *S${SEASON}E*; do
         continue
     fi
 
-    # force base-10 (prevents octal interpretation)
+    # force base-10 (prevents octal interpretation) Solve the problem of leading 0
     num=$((10#$num))
 
     ext="${file##*.}"
