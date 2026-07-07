@@ -28,3 +28,4 @@ for file in *S${SEASON}E*; do
         echo "Already correct: $file"
     fi
 done
+
